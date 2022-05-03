@@ -3,15 +3,10 @@ rotulo2.innerHTML = "Ingrese la vuelta 2";
 rotulo3.innerHTML = "Ingrese la vuelta 3";
 rotulo4.innerHTML = "Ingrese la vuelta 4";
 
-let dato1: number = 4;
-let dato2: number = 7;
-let dato3: number = 8;
-let dato4: number = 9;
-
-let vuelta1: number = Number(dato1.value);
-let vuelta2: number = Number(dato2.value);
-let vuelta3: number = Number(dato3.value);
-let vuelta4: number = Number(dato4.value);
+let vuelta1: number = 1;
+let vuelta2: number = 4;
+let vuelta3: number = 7;
+let vuelta4: number = 8;
 
 let tiempoTotal = vuelta1 + vuelta2 + vuelta3 + vuelta4;
 console.log("tiempoTotal:", tiempoTotal);
